@@ -1,0 +1,63 @@
+.is-1 {
+  font-size: 3rem;
+}
+
+.is-2 {
+  font-size: 2.5rem;
+}
+
+.is-3 {
+  font-size: 1rem;
+}
+
+.has-danger {
+  color: red;
+}
+
+.has-warning {
+  color: yellow;
+}
+
+.has-info {
+  color: blue;
+}
+
+.navbar {
+  background-color: #db2d43;
+}
+.navbar ul {
+  width: 100%;
+}
+.navbar ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.navbar li {
+  list-style: none;
+  float: left;
+  width: 10%;
+}
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 2rem;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #8a1826;
+}
+
+.container {
+  margin: 0;
+  position: relative;
+}
+@media screen and (min-width: 1088px) {
+  .container {
+    max-width: 960px;
+    width: 960px;
+  }
+}
+
+/*# sourceMappingURL=devindo.css.map */

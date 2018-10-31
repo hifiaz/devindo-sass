@@ -1,0 +1,24 @@
+$red: #db2d43
+$yellow: #ffcd3c
+$blue: #64638f
+$padding: 2rem
+$gap: 64px
+$dekstop: 960px + (2*$gap)
+$size: 3rem, 2.5rem, 1rem
+$kumpulan: (danger:red,warning:yellow,info:blue)
+
+=desktop
+    @media screen and (min-width: $dekstop)
+        @content
+=center
+    text-align: center
+    align-items: center
+    @content
+
+@for $i from 1 through length($size)
+    .is-#{$i}
+        font-size: nth($size,$i)
+
+@each $warna, $code in $kumpulan
+    .has-#{$warna}
+        color: #{$code}

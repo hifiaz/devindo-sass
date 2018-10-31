@@ -1,0 +1,18 @@
+{
+  "name": "devindo-sass",
+  "version": "1.0.0",
+  "description": "belajar sass dengan devindo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --watch devindo.sass:devindo.css"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "hifiaz",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
